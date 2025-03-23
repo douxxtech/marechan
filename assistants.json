@@ -1,0 +1,27 @@
+{
+    "default": {
+      "email": {
+        "sender": "default@example.com",
+        "smtp_server": "mail.example.com",
+        "smtp_port": 587,
+        "smtp_user": "default@example.com",
+        "smtp_password": ""
+      },
+      "prompt": "INSTRUCTIONS: Reply to the following prompt, in the same language as the email:",
+      "enhance_prompt": false,
+      "enhancements": []
+    },
+    "marechan": {
+      "email": {
+        "sender": "marechan@example.com",
+        "smtp_server": "mail.example.com",
+        "smtp_port": 587,
+        "smtp_user": "marechan@example.com",
+        "smtp_password": ""
+      },
+      "prompt": "INSTRUCTIONS: Only respond to what was asked. DO NOT mention any other things or statistics if not asked. Keep your response simple and clear. Reply in the same language as in the following message.",
+      "enhance_prompt": true,
+      "enhancements": ["all"]
+    }
+  }
+  
