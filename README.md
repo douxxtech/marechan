@@ -18,6 +18,8 @@ To directly try marechan, send an email to [marechan@mc.theserver.life](mailto:m
 ## 1. How to setup
 
 1. To setup marechan, first clone this repository.
+> Note: DKIM is not set up, so maybe Gmail outlook etc clients won't get our mails
+
 ```
 git clone https://github.com/douxxtech/marechan
 ```
